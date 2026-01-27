@@ -15,8 +15,8 @@ This project implements a **4-bus inverter-dominated microgrid** with:
 
 Controllers compared:
 1) PID baseline
-2) LSTM-based proactive baseline (LSTM used ONLY here)
-3) Proposed Model-Free DQN controller (Option A: adjusts Vref), using a **non-ML** forecast feature:
+2) LSTM-based proactive baseline (LSTM)
+3) Proposed Model-Free FP-DGL controller, forecast feature:
    - `FORECAST_MODE = 'next_hour_schedule'`
 
 ## Quick start
