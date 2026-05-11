@@ -36,7 +36,7 @@ The framework is specifically designed for:
 
 ## 🏗️ System Architecture
 
-![System Architecture](./Proposed_System.pdf)
+![System Architecture](./Proposed_System.png)
 
 The microgrid consists of:
 
